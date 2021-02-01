@@ -16,7 +16,8 @@ main(void){
         while ( fgets(buf, MAXLINE, fp) != nullptr)
            write(1,buf, strlen(buf));
            // puts(buf);
-    }
+    } 
 
+    // 关闭
     fclose(fp);
 }
